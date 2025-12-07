@@ -13,6 +13,22 @@ public class MovementMobyDick : MonoBehaviour
     [Tooltip("Direction initiale du mouvement (+1 pour droite, -1 pour gauche).")]
     public float direction = 1f;
 
+    [Header("Contact Harpon")]
+    public ParticleSystem bloodParticle;
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Harpon"))
+        {
+            bloodParticle.transform.position = transform.position;
+            bloodParticle.Play();
+            
+            Destroy(collision.gameObject);
+            
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z - 5);
+        }
+    }
+
     void Update()
     {
         float moveDistance = speed * Time.deltaTime * direction;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4335247814886477119}
   m_Layer: 0
   m_Name: Harpon
-  m_TagString: Untagged
+  m_TagString: Harpon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,6 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa79c2a9062b224fa1165dc56c95eba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  MobyDick: {fileID: 0}
+  bloodParticle: {fileID: 0}
 --- !u!54 &4335247814886477119
 Rigidbody:
   m_ObjectHideFlags: 0
