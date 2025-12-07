@@ -475,9 +475,9 @@ crashlytics-build.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,unity,csharp
-/AchabHarpon/Temp
-/AchabHarpon/Temp/
-/AchabHarpon/UserSettings/Layouts
-/AchabHarpon/UserSettings
-AchabHarpon/ProjectSettings/EditorBuildSettings.asset
-AchabHarpon/ProjectSettings/ShaderGraphSettings.asset
+/AchabHapron/Temp
+/AchabHapron/Temp/
+/AchabHapron/UserSettings/Layouts
+/AchabHapron/UserSettings
+AchabHapron/ProjectSettings/EditorBuildSettings.asset
+AchabHapron/ProjectSettings/ShaderGraphSettings.asset
