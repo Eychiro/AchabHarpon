@@ -475,8 +475,9 @@ crashlytics-build.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,unity,csharp
-/Batman_Project_GD2_3D3/Temp
-/Batman_Project_GD2_3D3/UserSettings/Layouts
-/Batman_Project_GD2_3D3/UserSettings
-Batman_Project_GD2_3D3/ProjectSettings/EditorBuildSettings.asset
-Batman_Project_GD2_3D3/ProjectSettings/ShaderGraphSettings.asset
+/AchabHarpon/Temp
+/AchabHarpon/Temp/
+/AchabHarpon/UserSettings/Layouts
+/AchabHarpon/UserSettings
+AchabHarpon/ProjectSettings/EditorBuildSettings.asset
+AchabHarpon/ProjectSettings/ShaderGraphSettings.asset
