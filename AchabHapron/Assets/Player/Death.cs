@@ -9,6 +9,14 @@ public class Death : MonoBehaviour
     public GameObject ViseurAndObjectif;
     public GameObject Timer;
 
+    public AudioClip bruitOcean;
+
+
+    void Start()
+    {
+        AudioSource.PlayClipAtPoint(bruitOcean, transform.position);        
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Monster"))
@@ -26,7 +34,7 @@ public class Death : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.U))
         {
-            MobyDick.localPosition = new Vector3(MobyDick.localPosition.x, MobyDick.localPosition.y, MobyDick.localPosition.z - 5);
+            MobyDick.localPosition = new Vector3(MobyDick.localPosition.x, MobyDick.localPosition.y, MobyDick.localPosition.z - 12);
         }
     }
 }
