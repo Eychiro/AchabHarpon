@@ -6,11 +6,12 @@ public class Death : MonoBehaviour
     public Transform MobyDick;
 
     public GameObject deathImage;
-    public GameObject ViseurAndObjectif;
+    public GameObject Objectif;
+    public GameObject Viseur;
+
     public GameObject Timer;
 
     public AudioClip bruitOcean;
-
 
     void Start()
     {
@@ -22,7 +23,8 @@ public class Death : MonoBehaviour
         if (other.CompareTag("Monster"))
         {
             cameraController.cameraLocked = true;
-            ViseurAndObjectif.SetActive(false);
+            Objectif.SetActive(false);
+            Viseur.SetActive(false);
             
             Timer.SetActive(false);
             

@@ -8,7 +8,8 @@ public class Timer : MonoBehaviour
     [SerializeField] float remainingTimeInSeconds;
 
     public GameObject Victoire;
-    public GameObject ViseurAndObjectif;
+    public GameObject Objectif;
+    public GameObject Viseur;
     public GameObject TimerText;
 
     void Update()
@@ -21,10 +22,10 @@ public class Timer : MonoBehaviour
             remainingTimeInSeconds = 0;
             timerText.color = Color.red;
             Victoire.SetActive(true);
-            ViseurAndObjectif.SetActive(false);
+            Objectif.SetActive(false);
+            Viseur.SetActive(false);
             TimerText.SetActive(false);
         }
-
         int minutes = Mathf.FloorToInt(remainingTimeInSeconds / 60);
         int secondes = Mathf.FloorToInt(remainingTimeInSeconds % 60);
 
