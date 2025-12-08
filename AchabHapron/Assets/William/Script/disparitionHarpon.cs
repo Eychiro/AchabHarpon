@@ -4,6 +4,6 @@ public class disparitionHarpon : MonoBehaviour
 {
     void Start()
     {        
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 2.5f);
     }
 }

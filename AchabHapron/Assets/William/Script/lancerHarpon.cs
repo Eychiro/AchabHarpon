@@ -5,7 +5,7 @@ public class LanceurHarpon : MonoBehaviour
 {
     public GameObject harponPrefab;
     public float forceTir = 30f;
-    public float tempsRecharge = 2f;
+    public float tempsRecharge = 1f;
     
     private bool dispoTir = true;
 
